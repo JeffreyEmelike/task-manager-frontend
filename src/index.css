@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --background: 222 47% 5%;
+  --foreground: 213 31% 91%;
+  --card: 222 47% 8%;
+  --card-foreground: 213 31% 91%;
+  --primary: 250 95% 64%;
+  --primary-foreground: 0 0% 100%;
+  --muted: 223 47% 11%;
+  --muted-foreground: 215 16% 57%;
+  --border: 216 34% 17%;
+  --input: 216 34% 17%;
+  --ring: 250 95% 64%;
+  --radius: 0.5rem;
+  --destructive: 0 63% 31%;
+  --destructive-foreground: 210 40% 98%;
+  --accent: 216 34% 17%;
+  --accent-foreground: 210 40% 98%;
+}
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: "Inter", system-ui, sans-serif;
+}
