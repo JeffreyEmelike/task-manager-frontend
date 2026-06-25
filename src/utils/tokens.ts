@@ -16,7 +16,7 @@ export const getRefreshToken = (): string | null =>
   localStorage.getItem(REFRESH_KEY);
 
 // Clear both on logout
-export const clearTpkens = (): void => {
+export const clearTokens = (): void => {
   localStorage.removeItem(ACCESS_KEY);
   localStorage.removeItem(REFRESH_KEY);
 };
